@@ -181,3 +181,5 @@ venv
 cmake-build-*
 
 .godot
+*.y4m
+plugin_refresher
