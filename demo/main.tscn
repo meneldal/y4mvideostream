@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqvms5wynsnpq"]
+
+[ext_resource type="VideoStream" path="res://assets/akiyo_cif.y4m" id="1_johyf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+stream = ExtResource("1_johyf")
+autoplay = true
+loop = true

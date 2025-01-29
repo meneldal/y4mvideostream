@@ -179,3 +179,5 @@ venv
 # Clion Configuration
 .idea/
 cmake-build-*
+
+.godot
