@@ -4,7 +4,6 @@ extends EditorPlugin
 var plugin
 
 func _enter_tree() -> void:
-	print("TEST")
 	plugin = preload("res://addons/inspector_video_stream_plugin/inspector_video_stream_plugin.gd").new()
 	add_inspector_plugin(plugin)
 	pass

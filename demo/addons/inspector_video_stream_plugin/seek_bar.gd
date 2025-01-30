@@ -15,6 +15,9 @@ func _init()-> void:
 func set_max(m:float)->void:
 	property_control.max_value=m
 
+func set_value(v:float)->void:
+	property_control.value = v
+
 func _on_value_changed(value:float)->void:
 	current_value = value
 	emit_changed(get_edited_property(), current_value)
